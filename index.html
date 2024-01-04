@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <h1 id="overskrift">Javascript demo</h1>
+    <select id="dropdown" onchange="changeText()">
+        <option value="#ff0000">Red</option>
+        <option value="#ff7b00">Orange</option>
+        <option value="#e1ff00">Yellow</option>
+        <option value="#0dff00">Green</option>
+        <option value="#00fff7">Teal</option>
+        <option value="#0004ff">Blue</option>
+        <option value="#e600ff">Purple</option>
+        <option value="#ff0084">Violet</option>
+    </select>
+    <script>
+        function changeText() {
+            console.log("Changing Color...");
+            var t1 = document.getElementById("overskrift");
+            var dropDownSelect = document.getElementById("dropdown");
+        }
+    </script>
+</body>
+</html>
