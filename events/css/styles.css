@@ -1,0 +1,26 @@
+#display{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#display li{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#display li:hover{
+    background-color: rgb(255, 98, 98);
+    color: aliceblue;
+    transition-duration: 80ms;
+    cursor: pointer;
+}
